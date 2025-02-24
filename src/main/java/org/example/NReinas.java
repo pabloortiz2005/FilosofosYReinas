@@ -11,7 +11,8 @@ class NReinas {
 
     private boolean esValido(int fila, int col) {
         for (int i = 0; i < fila; i++) {
-            if (tablero[i] == col || Math.abs(tablero[i] - col) == Math.abs(i - fila)) {
+            if (tablero[i] == col || Math.abs(tablero[i]
+                    - col) == Math.abs(i - fila)) {
                 return false;
             }
         }

@@ -28,6 +28,7 @@ public class Main {
                             System.out.println("El número de reinas debe ser al menos 4. Intente nuevamente.");
                         }
                     } while (n < 4);
+
                     NReinas problema = new NReinas(n);
                     problema.resolver();
                     break;
